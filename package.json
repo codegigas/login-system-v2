@@ -1,0 +1,30 @@
+{
+  "name": "login-system-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET \"NODE_ENV=development\" && nodemon server.js",
+    "prod": "SET \"NODE_ENV=production\" && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegigas/login-system-v2.git"
+  },
+  "author": "Knightwalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codegigas/login-system-v2/issues"
+  },
+  "homepage": "https://github.com/codegigas/login-system-v2#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

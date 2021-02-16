@@ -1,0 +1,10 @@
+<h1>Home Page</h1>
+<a href="/login">login page</a>
+<a href="/register">register page</a>
+<a href="/logout">logout</a>
+
+<% if (bUserIsAuthenticated) { %>
+  <div>Hello <%= objUser.username %> </div>
+<% } else { %>
+  <div>Hello, Guest!</div>
+<% } %>
